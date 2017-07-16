@@ -1,0 +1,21 @@
+_H5Lang_['en'] = {
+	"nav-home" : 'Home',
+	"nav-feature" : "Features",
+	"nav-works" : "How it works",
+	"nav-docs" : "Docs",
+	"nav-paper" : "Related paper",
+	"nav-team" : "Team",
+	"header-btn" : "Start",
+	"header-h1" : "blockchain-based educational certificates",
+	"header-des" : "Your academic credentials are stored in a super secure database replicated all around the world. Which is valid in everywhere. We creates a new infrastructure of trust that replaces the need to request records from a central authority.",
+	"header2-h1": "Multiple signature to prevent forgery",
+	"header2-des" : "'zero-knowledge proof to protect user's privacy'",
+	"text1-title": "Decentralization",
+	"text1-des": "Nodes in a peer-to-peer network both provide and consume services at the same time with reciprocity acting as the incentive for participation...",
+	"text2-title": "Immutable",
+	"text2-des": "The immutability relies on proof-of-work (PoW), which is a proven way to secure a blockchain through powerful computation and processing time by a computer....",
+	"text3-title": "Verifiable",
+	"text3-des": "Each transaction in the public ledger is verified by consensus of a majority of the participants in the systemAs a result, they are valid everywhere...",
+	"text4-title": "Trust-free",
+	"text4-des": 'Data quality is maintained by massive database replication and computational trust. No centralized "official" copy exists and no user is "trusted"...'
+};

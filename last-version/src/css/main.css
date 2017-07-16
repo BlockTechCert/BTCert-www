@@ -1,0 +1,26 @@
+.logo{
+ 	background: url(../images/logo.png) no-repeat;
+    background-size: 77%;
+    width: 300px;
+}
+@media screen and (min-width: 768px){
+	.logo{
+ 	background: url(../images/logo.png) no-repeat;    
+ 	background-size: 77%;
+    width: 300px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.logo{
+ 	background: url(../images/logo2.png) no-repeat;
+ 	background-size: 77%;
+    width: 300px;
+	}
+}
+.nav-home {
+	    color: rgba(255,255,255,.5) !important;
+}
+.nav-home .active{
+	    color: #fff !important;
+}
