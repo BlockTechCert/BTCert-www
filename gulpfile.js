@@ -24,6 +24,13 @@ gulp.task('script', function() {
         .pipe(gulp.dest('docs/js'))
 });
 
+// 压缩 js 文件
+gulp.task('i18n', function() {
+    gulp.src('src/i18n/*.js')
+        .pipe(uglify())
+        .pipe(gulp.dest('docs/i18n'))
+});
+
 // sass预编译
 gulp.task('sass', function () {
   return gulp.src('src/sass/*.scss')
@@ -76,4 +83,4 @@ gulp.task('auto', function () {
 });
 
 
-gulp.task('default', ['script','sass','html','css']);
+gulp.task('default', ['script','i18n','sass','html','css']);
