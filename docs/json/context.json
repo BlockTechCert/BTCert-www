@@ -7,7 +7,7 @@
     
     "fileHash": "bm:fileHash",
     "identityClaim": "bm:identityClaim",
-    "revocationClaim": "bm:revocationList",
+    "revocationClaim": "bm:revocationList"
     
   },
   "obi:validation": [
