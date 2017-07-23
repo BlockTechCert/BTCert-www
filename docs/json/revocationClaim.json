@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "MerkleProof2017 schema",
+  "title": "revocationClaim schema",
   "description": "An extension that allows an issuer to issue an Open Badge on the blockchain and provide proof of inclusion in a blockchain transaction. This uses the Chainpoint v2.0 specification: https://chainpoint.org/",
   "type": "object",
   "definitions": {
@@ -17,14 +17,11 @@
     "type": {
       "$ref": "#/definitions/JsonLdType"
     },
-    "filehash": {
+    "revocationAddress": {
       "type": "string"
     },
-    "filestore": {
+    "batchRevocationAddress": {
       "type": "string"
-    },
-	"filetype": {
-      "type": "string"
-    },
-  "required": ["type", "filehash", "filestore", "filetype"]
+    }
+  "required": ["type", "revocationAddress", "batchRevocationAddress"]
 }
