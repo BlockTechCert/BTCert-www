@@ -2,7 +2,7 @@
   "@context": {
     "id": "@id",
     "type": "@type",
-	"bm": "http://ehcoo.com#",
+	"bm": "https://blocktechcert.github.io/www/json/context.json#",
     "obi": "https://w3id.org/openbadges#",
     
     "fileHash": "bm:fileHash",
